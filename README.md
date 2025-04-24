@@ -1,109 +1,125 @@
-# Floating Icon Chat Bot with Multiple Emotional States
+```markdown
+# <div align="center">🤖 Floating Emotional AI Chat Bot</div>
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Gemini AI](https://img.shields.io/badge/Gemini_AI-4285F4?style=for-the-badge&logo=google&logoColor=white)
+<div align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Gemini_AI-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Gemini AI">
+  <img src="https://img.shields.io/badge/license-MIT-blue?style=for-the-badge" alt="License">
+</div>
 
-An interactive AI chat assistant that adapts its personality based on selected emotional states, providing human-like conversations.
+<div align="center">
+  <em>An interactive AI assistant that adapts its personality based on emotional states</em>
+</div>
 
-## Table of Contents
-- [Features](#features)
-- [Demo](#demo)
-- [Technologies](#technologies)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Configuration](#configuration)
-- [Architecture](#architecture)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+<br>
 
-## Features ✨
+<div style="display: flex; justify-content: center; margin: 20px 0;">
+  <img src="https://via.placeholder.com/800x400?text=Chat+Bot+Demo" alt="Demo Screenshot" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); max-width: 100%;">
+</div>
 
-- **Emotional Intelligence**  
-  Choose from multiple emotional states (Normal, Happy, Sad, Angry) to customize response tone
+## 📌 Table of Contents
 
-- **Persistent Context**  
-  Maintains conversation history and emotional state across page navigation
+<!-- TOC -->
+- [✨ Features](#-features)
+- [🚀 Quick Start](#-quick-start)
+- [🛠 Technologies](#-technologies)
+- [💡 Usage](#-usage)
+- [⚙ Configuration](#-configuration)
+- [🏗 Architecture](#-architecture)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+- [📬 Contact](#-contact)
+<!-- /TOC -->
 
-- **Privacy Focused**  
-  All conversations are stored locally in browser (no server storage)
+## ✨ Features
 
-- **Advanced AI**  
-  Powered by Google's Gemini 2.0 Flash Lite model
+<div style="background: #f8f9fa; padding: 20px; border-radius: 8px; margin: 15px 0;">
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px;">
+    <div style="background: white; padding: 15px; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+      <h4>🎭 Emotional States</h4>
+      <p>Choose from Happy, Sad, Angry or Normal personalities</p>
+    </div>
+    <div style="background: white; padding: 15px; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+      <h4>🔒 Privacy Focused</h4>
+      <p>All conversations stored locally in your browser</p>
+    </div>
+    <div style="background: white; padding: 15px; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+      <h4>🤖 Gemini AI</h4>
+      <p>Powered by Google's cutting-edge language model</p>
+    </div>
+    <div style="background: white; padding: 15px; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+      <h4>🎨 Beautiful UI</h4>
+      <p>Smooth animations and responsive design</p>
+    </div>
+  </div>
+</div>
 
-- **Smooth UX**  
-  Framer Motion animations and responsive Tailwind CSS design
-
-## Demo 🎥
-
-*(Insert gif/video demo link here)*
-
-## Technologies 🛠️
-
-**Core Stack**
-- React 18 + TypeScript
-- Vite Build Tool
-- Tailwind CSS
-- Framer Motion
-
-**AI Integration**
-- Google Generative AI SDK
-- Gemini 2.0 Flash Lite
-
-**Utilities**
-- React Router DOM
-- Lucide React Icons
-
-## Installation ⚙️
+## 🚀 Quick Start
 
 ### Prerequisites
 - Node.js ≥18.x
 - npm ≥9.x
-- Google API Key (for Gemini)
+- Google API Key
 
-### Setup
+### Installation
 ```bash
-# Clone repository
+# Clone the repository
 git clone https://github.com/Anurag-Shankar-Maurya/WebBot
 cd WebBot
 
 # Install dependencies
 npm install
 
-# Configure environment (create .env file)
+# Set up environment variables
 echo "VITE_GEMINI_API_KEY=your_api_key" > .env
 
 # Start development server
 npm run dev
 ```
 
-**Production Build**
-```bash
-npm run build
-npm run preview
-```
+## 🛠 Technologies
 
-## Usage 💬
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin: 15px 0;">
+  <div style="background: #e3f2fd; padding: 8px 12px; border-radius: 20px; font-size: 0.9em;">React</div>
+  <div style="background: #e8f5e9; padding: 8px 12px; border-radius: 20px; font-size: 0.9em;">TypeScript</div>
+  <div style="background: #f3e5f5; padding: 8px 12px; border-radius: 20px; font-size: 0.9em;">Vite</div>
+  <div style="background: #fff8e1; padding: 8px 12px; border-radius: 20px; font-size: 0.9em;">Tailwind CSS</div>
+  <div style="background: #e0f7fa; padding: 8px 12px; border-radius: 20px; font-size: 0.9em;">Framer Motion</div>
+  <div style="background: #f1f8e9; padding: 8px 12px; border-radius: 20px; font-size: 0.9em;">Gemini AI</div>
+</div>
 
-1. Click the floating chat icon (bottom-right)
-2. Select emotional state:
+## 💡 Usage
+
+1. Click the floating chat icon (bottom-right corner)
+2. Select an emotional state:
    - 😊 Happy
-   - 😢 Sad 
+   - 😢 Sad
    - 😠 Angry
    - 😐 Normal
-3. Begin conversation - AI adapts to selected emotion
-4. Use reset button to clear history
+3. Begin your conversation
+4. The AI will adapt responses to your selected emotion
 
-## Configuration ⚙️
-
-Environment Variables:
+```javascript
+// Example emotion configuration
+const emotions = {
+  happy: "Respond enthusiastically with positive language",
+  sad: "Show empathy and use comforting words",
+  angry: "Keep responses short and direct",
+  normal: "Neutral, professional tone"
+};
 ```
+
+## ⚙ Configuration
+
+Environment variables (`.env` file):
+
+```ini
 VITE_GEMINI_API_KEY=your_google_api_key
-VITE_DEFAULT_EMOTION=normal
+VITE_DEFAULT_EMOTION=normal  # [happy, sad, angry, normal]
 ```
 
-## Architecture 🏗️
+## 🏗 Architecture
 
 ```
 src/
@@ -118,33 +134,29 @@ src/
 └── types/           # TypeScript definitions
 ```
 
-## Contributing 🤝
+## 🤝 Contributing
 
-We welcome contributions! Please follow these guidelines:
+We welcome contributions! Please follow these steps:
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/your-feature`)
-3. Commit changes (`git commit -m 'Add some feature'`)
-4. Push to branch (`git push origin feature/your-feature`)
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-**Coding Standards**
-- Follow existing TypeScript conventions
-- Document new components with JSDoc
-- Include relevant tests
+## 📄 License
 
-## License 📄
+Distributed under the MIT License. See `LICENSE` for more information.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## 📬 Contact
 
-## Contact 📬
+Anurag Shankar Maurya - [@yourtwitter](https://twitter.com/yourtwitter) - anuragshankarmaurya@gmail.com
 
-**Anurag Shankar Maurya**  
-📧 anuragshankarmaurya@gmail.com  
-🔗 [LinkedIn Profile](https://in.linkedin.com/in/anurag-shankar-maurya)  
+Project Link: [https://github.com/Anurag-Shankar-Maurya/WebBot](https://github.com/Anurag-Shankar-Maurya/WebBot)
 
 ---
 
 <div align="center">
-  Made with ❤️ using cutting-edge AI technology
-</div>̥
+  Made with ❤️ and ☕ by Anurag Shankar Maurya
+</div>
+```
