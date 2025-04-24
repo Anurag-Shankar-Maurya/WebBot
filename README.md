@@ -1,4 +1,3 @@
-```markdown
 # <div align="center">🤖 Floating Emotional AI Chat Bot</div>
 
 <div align="center">
@@ -159,4 +158,3 @@ Project Link: [https://github.com/Anurag-Shankar-Maurya/WebBot](https://github.c
 <div align="center">
   Made with ❤️ and ☕ by Anurag Shankar Maurya
 </div>
-```
