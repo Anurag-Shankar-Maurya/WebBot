@@ -4,7 +4,6 @@
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
   <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
   <img src="https://img.shields.io/badge/Gemini_AI-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Gemini AI">
-  <img src="https://img.shields.io/badge/license-MIT-blue?style=for-the-badge" alt="License">
 </div>
 
 <div align="center">
@@ -14,21 +13,20 @@
 <br>
 
 <div style="display: flex; justify-content: center; margin: 20px 0;">
-  <img src="https://via.placeholder.com/800x400?text=Chat+Bot+Demo" alt="Demo Screenshot" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); max-width: 100%;">
+  <img src="img.png" alt="Demo Screenshot" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); max-width: 100%;">
 </div>
 
 ## 📌 Table of Contents
 
 <!-- TOC -->
+
 - [✨ Features](#-features)
 - [🚀 Quick Start](#-quick-start)
 - [🛠 Technologies](#-technologies)
 - [💡 Usage](#-usage)
-- [⚙ Configuration](#-configuration)
-- [🏗 Architecture](#-architecture)
-- [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
+- [📎 Configuration](#-configuration)
 - [📬 Contact](#-contact)
+
 <!-- /TOC -->
 
 ## ✨ Features
@@ -57,11 +55,13 @@
 ## 🚀 Quick Start
 
 ### Prerequisites
+
 - Node.js ≥18.x
 - npm ≥9.x
 - Google API Key
 
 ### Installation
+
 ```bash
 # Clone the repository
 git clone https://github.com/Anurag-Shankar-Maurya/WebBot
@@ -92,10 +92,10 @@ npm run dev
 
 1. Click the floating chat icon (bottom-right corner)
 2. Select an emotional state:
-   - 😊 Happy
-   - 😢 Sad
-   - 😠 Angry
-   - 😐 Normal
+    - 😊 Happy
+    - 😢 Sad
+    - 😠 Angry
+    - 😐 Normal
 3. Begin your conversation
 4. The AI will adapt responses to your selected emotion
 
@@ -115,41 +115,13 @@ Environment variables (`.env` file):
 
 ```ini
 VITE_GEMINI_API_KEY=your_google_api_key
-VITE_DEFAULT_EMOTION=normal  # [happy, sad, angry, normal]
 ```
-
-## 🏗 Architecture
-
-```
-src/
-├── components/      # Reusable UI components
-│   ├── ChatBot/     # Core chat interface
-│   └── Layout/      # Page structure
-├── contexts/        # State management
-├── pages/           # Application views
-├── services/        # API integrations
-│   ├── ai/          # Gemini service
-│   └── storage/     # Local storage
-└── types/           # TypeScript definitions
-```
-
-## 🤝 Contributing
-
-We welcome contributions! Please follow these steps:
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📬 Contact
 
-Anurag Shankar Maurya - [@yourtwitter](https://twitter.com/yourtwitter) - anuragshankarmaurya@gmail.com
+### Anurag Shankar Maurya
+
+Email : [anuragshankarmaurya@gmail.com](anuragshankarmaurya@gmail.com)
 
 Project Link: [https://github.com/Anurag-Shankar-Maurya/WebBot](https://github.com/Anurag-Shankar-Maurya/WebBot)
 
